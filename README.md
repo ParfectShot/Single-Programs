@@ -1,2 +1,3 @@
 # Single-Programs
-Some of the programs i made while practicing python
+Some of the programs I made while practicing python
+    
