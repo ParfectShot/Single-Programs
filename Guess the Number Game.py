@@ -10,7 +10,7 @@ print("I am thinking of a number between 1-20")
 print("Take a Guess..(Only Six Chances)")
 
 
-
+# Asking the user to enter upto 6 times max
 for i in range(1,7):
     number = int(input())
 
@@ -24,7 +24,7 @@ for i in range(1,7):
 
     else:
         break
-
+# Printing the conclusion
 if number==secret:
     print("You guessed it in " + str(i) + " guesses")
     print("Number is : "+str(secret))
