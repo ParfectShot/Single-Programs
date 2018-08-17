@@ -39,7 +39,7 @@ for i in range(len(message)):
     chunk=message[i:i+11]
     if isphone2(chunk):
         print("Phone Number found : " + chunk)
-
+        foundnumber=True
 
 if not foundnumber:
     print("Couldn't find any number")
