@@ -1,5 +1,8 @@
 ''' This program searches for indian phone numbers starting with country code"+91"
     and the phone number must be 13 digits long.
+    
+    Also this program searches for Mobile numbers of lenth 11 digits and starting with 0.
+    
     The special thing about this program is that it will search from anything that
     is copied to the clipboard, be it a website column , long paragraphs etc.. '''
 
