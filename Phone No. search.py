@@ -5,6 +5,15 @@
 
 import pyperclip
 
+def isphone2(text):
+    if len(text) != 11:
+        return False
+    for i in range(0,11):
+        if not text[i].isdecimal():
+            return False
+    return True
+
+
 def isphone(text):
     if len(text) != 13:
         return False
@@ -24,5 +33,10 @@ for i in range(len(message)):
     if isphone(chunk):
         print("Phone Number found : " + chunk)
         foundnumber=True
+    chunk=message[i:i+11]
+    if isphone2(chunk):
+        print("Phone Number found : " + chunk)
+
+
 if not foundnumber:
     print("Couldn't find any number")
